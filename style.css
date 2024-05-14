@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Pokemon_Solid';
+    src: url('assets/font/Pokemon_Solid.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/font/Roboto-Black.ttf');
+}
+
+.title {
+    font-family: 'Pokemon_Solid', serif;
+    text-align: center;
+    margin: auto;
+    color: blue;
+    text-decoration: none;
+}
+
+.title:visited {
+    color: inherit;
+}
+
+body {
+    text-decoration: none;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+#paragraph {
+    font-family: 'Roboto', serif;
+    text-align: center;
+    margin: 50px 30px 30px;
+    font-size: xx-large;
+}
+
+#img_to_guess {
+    margin-bottom: 20px;
+}
+
+#answer {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    margin: 0 auto 20px;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+#submit {
+    font-family: 'Roboto', serif;
+    color: black;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+}
+
+#copyright
+{
+    font-family: 'Pokemon_Solid', serif;
+    color: black;
+    text-align: center;
+    margin-top: 3%;
+}
