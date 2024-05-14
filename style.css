@@ -37,6 +37,11 @@ body {
     margin-bottom: 20px;
 }
 
+#pokemon-image {
+    width: 500px;
+    height: auto;
+}
+
 #answer {
     font-family: 'Roboto', sans-serif;
     display: block;
